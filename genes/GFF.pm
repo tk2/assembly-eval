@@ -2,7 +2,7 @@ package GFF;
 use strict;
 use warnings;
 
-my $annotation=qq[/nfs/users/nfs_t/tk2/Annotation/Gencode/M4/gencode.vM4.annotation.gff3.gz];
+my $annotation=qq[gencode.vM4.annotation.gff3.gz];
 my $MIN_EXON_SIZE = 50;
 
 my %gene2exons;
